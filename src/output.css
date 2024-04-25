@@ -554,63 +554,59 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.flex {
-  display: flex;
 }
 
 .table {
   display: table;
 }
 
-.h-full {
-  height: 100%;
+.w-\[90\%\] {
+  width: 90%;
 }
 
-.w-\[85\%\] {
-  width: 85%;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.w-full {
-  width: 100%;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.w-\[\%\] {
-  width: %;
+.font-\[\] {
+  font-family: ;
 }
 
-.w-\[70\%\] {
-  width: 70%;
+.font-\[youn\] {
+  font-family: youn;
 }
 
-.max-w-96 {
-  max-width: 24rem;
+.font-\[\'\'\] {
+  font-family: '';
 }
 
-.items-center {
-  align-items: center;
+.font-\[\'young-serif\'\] {
+  font-family: 'young-serif';
 }
 
-.justify-center {
-  justify-content: center;
+.font-\[\'young-serif-regular\'\] {
+  font-family: 'young-serif-regular';
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+.font-\[\'youngserif\'\] {
+  font-family: 'youngserif';
 }
 
-.bg-eggshell {
-  --tw-bg-opacity: 1;
-  background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
+.font-\[\'young_serif\'\] {
+  font-family: 'young serif';
+}
+
+.font-\[\'outfit\'\] {
+  font-family: 'outfit';
 }
 
 .text-3xl {
@@ -618,40 +614,21 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
+.text-wenge-brown {
+  --tw-text-opacity: 1;
+  color: hsl(30 10% 34% / var(--tw-text-opacity));
+}
 
-  .md\:w-\[70\%\] {
-    width: 70%;
-  }
-
-  .md\:w-\[7\%\] {
-    width: 7%;
-  }
-
-  .md\:w-\[\%\] {
-    width: %;
-  }
-
-  .md\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .md\:max-w-96 {
-    max-width: 24rem;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
+.text-dark-charcoal {
+  --tw-text-opacity: 1;
+  color: hsl(24 5% 18% / var(--tw-text-opacity));
 }
